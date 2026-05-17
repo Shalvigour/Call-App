@@ -1,4 +1,4 @@
-# Step 1: Use an official Nginx image as the base
+    # Step 1: Use an official Nginx image as the base
    FROM nginx:alpine
 
    # Step 2: Copy your local files into the default Nginx directory
