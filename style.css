@@ -87,14 +87,18 @@ form{
     margin-bottom:5px;
 }
 
-form div button{
+form div div{
+    height:18px;
+    width:100px;
     background-color:rgb(250, 52, 52);
+    padding-left:100px;
+    font-size:15px;
 }
 
 .form-add{
     height:250px;
     width:400px;
-    border:1px solid black;
+    /* border:1px solid black; */
     border-radius:10px;
     margin:auto;
     margin-top:150px;
@@ -106,7 +110,7 @@ form div button{
 .btn-add{
     height:200px;
     width:50px;
-    border:1px solid black;
+    /* border:1px solid black; */
     margin-top:25px;
     display:flex;
     flex-direction:column;
@@ -124,15 +128,50 @@ form div button{
     font-weight:900px;
     margin:3px;
 }
-
+.stack-main{
+    height:240px;
+    width:300px;
+    /* border:1px solid black; */
+    border-radius:10px;
+    margin:auto;
+    margin-top:25px;
+    position:relative;
+}
 .stack{
     height:200px;
     width:280px;
     border:1px solid black;
     border-radius:10px;
-    margin:auto;
-    margin-top:25px;
+    background-color:blue;
+    margin-left:10px;
+    position:absolute;
+    z-index:20;
+
 }
+.stack1{
+    height:200px;
+    width:280px;
+    border:1px solid black;
+    border-radius:10px;
+    margin-left:10px;
+    margin-top:10px;
+    background-color:pink;
+    position:absolute;
+    z-index:10;
+}
+
+.stack2{
+    height:200px;
+    width:280px;
+    border:1px solid black;
+    border-radius:10px;
+    margin-left:10px;
+    margin-top:20px;
+    background-color:yellow;
+    position:relative;
+    z-index:8;
+}
+
 .stack .image{
     height:40px;
     width:40px;
@@ -162,7 +201,7 @@ form div button{
 .colors{
     height:200px;
     width:50px;
-    border:1px solid black;
+    /* border:1px solid black; */
     margin-top:25px;
     display:flex;
     flex-direction:column;
