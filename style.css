@@ -7,7 +7,7 @@
 html,body{
     height:100%;
     width:100%;
-    background-color:beige;
+    background-color:rgb(223, 223, 218);
 }
 
 form{
@@ -18,7 +18,7 @@ form{
     height:400px;
     width:300px;
     border:2px solid black;
-    display:none;
+    display:flex;
     flex-direction:column;
     justify-content:center;
     padding-top:20px;
@@ -102,7 +102,7 @@ form div div{
     border-radius:10px;
     margin:auto;
     margin-top:150px;
-    display:flex;
+    display:none;
     flex-direction:row;
 
 }
@@ -126,7 +126,7 @@ form div div{
     border:1.5px solid black;
     font-size:15px;
     font-weight:900px;
-    margin:3px;
+    margin:5px;
 }
 .stack-main{
     height:240px;
@@ -142,7 +142,7 @@ form div div{
     width:280px;
     border:1px solid black;
     border-radius:10px;
-    background-color:blue;
+    background-color:rgb(153, 153, 239);
     margin-left:10px;
     position:absolute;
     z-index:20;
@@ -176,8 +176,12 @@ form div div{
     height:40px;
     width:40px;
     border-radius:50%;
-    background-color:rgb(76, 75, 75);
+    background-image:url("https://images.unsplash.com/photo-1778110827897-6dc6b6f7c988?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDh8dG93SlpGc2twR2d8fGVufDB8fHx8fA%3D%3D");
     margin:10px;
+    background-size: cover;
+}
+.stack .card-name{
+    margin-left:10px;
 }
 
 .stack .card-city{
@@ -245,4 +249,15 @@ form div div{
 .stack .card-btn{
     margin-left:7px;
     margin-top:12px;
+    width:100px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.stack .card-btn button{
+    padding:3px;
+    border-radius:3px;
+    border:1.5px solid rgb(8, 8, 8);
+    background-color:rgb(202, 202, 240); ;
 }
